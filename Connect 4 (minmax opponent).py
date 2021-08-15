@@ -90,7 +90,7 @@ def draw_board(board):
 
 
 #========================= The AI logic ===========================================================================
-def evaluate_window(window, piece, win_score_4 = 100, win_score_3 = 5, win_score_2 = 5, lose_score_3 = -4):
+def evaluate_window(window, piece, win_score_4 = 100, win_score_3 = 5, win_score_2 = 2, lose_score_3 = -4):
     """Score a particular window of four pieces"""
     score = 0
     # Select the opponents piece
